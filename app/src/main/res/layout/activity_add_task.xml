@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaskList.AddTaskActivity"
+    android:layout_margin="10dp"
+    >
+
+    <EditText
+        android:id="@+id/editTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Name..."
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+    android:id="@+id/editLocation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Location..."
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    />
+
+    <EditText
+        android:id="@+id/editStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status..."
+        android:text="not completed"
+        android:padding="10dp"
+        />
+
+    <Switch
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Status: "
+        android:text="Status: "
+        android:textSize="20dp"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="btnAddTask" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Show Tasks"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="btnShowAllTask" />
+
+
+</LinearLayout>

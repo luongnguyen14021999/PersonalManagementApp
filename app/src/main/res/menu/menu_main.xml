@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TaskList.ShowAllTaskActivity">
+    <item android:id="@+id/completed_rows"
+        android:title="Completed Rows"
+        android:orderInCategory="100" app:showAsAction="collapseActionView" />
+    <item android:id="@+id/uncompleted_rows"
+        android:title="Uncompleted Rows"
+        android:orderInCategory="100" app:showAsAction="collapseActionView" />
+</menu>

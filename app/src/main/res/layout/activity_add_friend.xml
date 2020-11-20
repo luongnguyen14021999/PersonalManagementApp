@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FriendList.AddFriendActivity"
+    android:layout_margin="10dp"
+    >
+
+    <EditText
+        android:id="@+id/editFName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name..."
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name..."
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/editGentle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gentle"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age..."
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address..."
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nameImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Image!"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add Record"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="btnAddRecord" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Show Records"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="btnShowAllRecord"
+        />
+
+
+</LinearLayout>

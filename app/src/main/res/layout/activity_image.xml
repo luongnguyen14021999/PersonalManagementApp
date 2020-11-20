@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollwid"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_gravity="center"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="100dp"
+            android:text="Please click in an image to assign to an friend!" />
+
+        <ImageView
+            android:id="@+id/image_beef"
+            android:src="@drawable/beefpizza"
+            android:layout_width="200dip"
+            android:layout_height="150dip"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            />
+        <ImageView
+            android:id="@+id/image_chicken"
+            android:src="@drawable/chickenpineapplepizza"
+            android:layout_width="200dip"
+            android:layout_height="150dip"
+            android:gravity="center"
+            android:layout_marginTop="10dip" />
+        <ImageView
+            android:id="@+id/image_pepperoni"
+            android:src="@drawable/pepperonipizza"
+            android:layout_width="200dip"
+            android:layout_height="150dip"
+            android:gravity="center"
+            android:layout_marginTop="10dip" />
+        <ImageView
+            android:id="@+id/image_vegetarian"
+            android:src="@drawable/vegetarianpizza"
+            android:layout_width="200dip"
+            android:layout_height="150dip"
+            android:gravity="center"
+            android:layout_marginTop="10dip" />
+    </LinearLayout>
+</ScrollView>
